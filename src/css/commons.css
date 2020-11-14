@@ -1,0 +1,45 @@
+
+*{box-sizing: border-box}html,body{font-family:'Montserrat',sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}.w3-serif{font-family:serif}
+h1,h2,h3,h4,h5,h6,p{font-weight:400;margin: 0}h1,h2,h3,h4,h5,h6{font-weight: 700}.w3-wide{letter-spacing:4px}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}input, button{font-family:'Montserrat',sans-serif ;}
+.body-2 {font-size: .875em}.button{padding: 8px 16px;border: none;background-color: #49C473;color: #ffffff; font-size: .875em;border-radius: 4px;}
+.bold {font-weight: 700;}
+.content-muted {color: #989898;}.element-ib{display: inline-block;vertical-align: middle;}.padding-default{padding: 8px;}
+.container {padding-left: 16px; padding-right: 16px; margin-left: auto; margin-right: auto; max-width: 767px;}
+.heading {
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.heading-left {
+    flex: 1;
+}
+.heading-left h6{
+    text-transform: uppercase;
+}
+.heading-right {
+    width: auto;
+    text-align: center;
+}
+.card{
+    box-shadow: 3px 1px 5px 0px rgba(50, 50, 50, 0.2);
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.card-image-wrap{
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    overflow: hidden;
+}
+.card-image-wrap > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-footer {
+    padding: 8px;
+    display: flex;
+}
