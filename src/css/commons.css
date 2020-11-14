@@ -38,6 +38,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}input, button{font-family:'M
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    min-width: 100%;
 }
 .card-footer {
     padding: 8px;
