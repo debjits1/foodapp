@@ -10,7 +10,12 @@ const Home = () => {
     
     useEffect(() => {
         const fetchData = async () => {
-            const result = await Axios.get('http://temp.dash.zeta.in/food.php');
+            let result;
+            try {
+                result = await Axios.get('http://temp.dash.zeta.in/food.php');
+            } catch (error) {
+                result = await Axios.get('/backup.json');
+            }
             const resultData = result ? result.data : {};
             const {recipes, categories}  = resultData;
             const favorites = recipes.filter(item => item.isFavourite);
